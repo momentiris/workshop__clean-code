@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clean code only</title>
   </head>
-  <body>
+  <body class="relative">
     <div class="w-screen h-screen flex flex-grow items-center justify-center">
       <div
-        class="grid grid-cols-3 grid-rows-3 border-t-2 border-l-2 border-black"
+        class="
+          grid grid-cols-3 grid-rows-3
+          border-t-2 border-l-2 border-black
+          transition-all
+          duration-300
+        "
       >
         <div data-id="0" class="cell"></div>
         <div data-id="1" class="cell"></div>
