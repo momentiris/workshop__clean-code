@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.cell {
-  @apply w-24 h-24 border-r-2 border-b-2 border-black text-6xl uppercase flex items-center justify-center;
+@layer components {
+  .cell {
+    @apply w-24 h-24 border-r-2 border-b-2 border-black text-6xl uppercase flex items-center justify-center;
+  }
+
+  .win-modal {
+    @apply w-screen h-screen absolute items-center justify-center hidden;
+  }
+
+  .win-modal.active {
+    @apply flex;
+  }
+
+  .win-modal--content {
+    @apply p-8 border-4 border-green-600 bg-gray-100 rounded-xl text-center gap-4 flex flex-col items-center justify-center text-2xl shadow-xl opacity-0 scale-50 transition-all duration-200 ease-in-out;
+  }
+
+  .win-modal--content.active {
+    @apply opacity-100 scale-100;
+  }
 }

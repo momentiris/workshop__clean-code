@@ -13,7 +13,7 @@
           grid grid-cols-3 grid-rows-3
           border-t-2 border-l-2 border-black
           transition-all
-          duration-300
+          duration-200
         "
       >
         <div data-id="0" class="cell"></div>
@@ -25,6 +25,14 @@
         <div data-id="6" class="cell"></div>
         <div data-id="7" class="cell"></div>
         <div data-id="8" class="cell"></div>
+      </div>
+      <div class="win-modal">
+        <div class="win-modal--content">
+          <span class="win-modal--context--text"></span>
+          <button id="reset" class="px-4 py-2 border-2 border-black rounded-xl">
+            Reset
+          </button>
+        </div>
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>
