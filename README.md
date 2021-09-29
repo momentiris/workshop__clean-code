@@ -1,4 +1,6 @@
-# Clean Code
+<img src="https://media.giphy.com/media/3o6MbbUmrvmDH8DKHS/giphy.gif?cid=ecf05e47e3xontfasrowpu7yptwy2hti504ttmd1xidd439q&rid=giphy.gif&ct=g" width="100%">
+
+# 10 - Clean Code
 
 Today we're going to get to know a bit about the concept of clean code.
 
