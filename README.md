@@ -4,9 +4,15 @@
 
 Today we're going to learn how to write clean(er) code.
 
+- :link: Links
+
+  - [Clean Code cheatsheet](https://www.planetgeek.ch/wp-content/uploads/2014/11/Clean-Code-V2.4.pdf)
+
+  - [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
+
 ## About
 
-When we write a program or an application, it's common to think about the performance of that code and how 'well' it communicates with the computer that runs it. However, when we work in teams with other coders towards in a project, it's important that the people in the team also communicate to each other in a performant and effective way through their code.
+When we write a program or an application, it's common to think about the performance of that code and how 'well' it communicates with the computer that runs it. However, when we work in teams with other coders in a project, it's important that the people in the team also communicate to each other in a performant and effective way through their code.
 
 One of the most common ways a new team member contributes to a code base is to go look somewhere where there is code that looks like it does what they would like to do. You find something, and then you understand that what you want to do is almost exactly like this, only with a different name.
 
@@ -14,7 +20,7 @@ So you create some new files and then you start copying this code and renaming s
 
 This process is pretty straightforward if the codebase is easy to read, and the various functions are easy to understand and loosely coupled so you can copy some stuff and remove some stuff without breaking your own code.
 
-Furthermore, since this is a very common way to add code to a project, you might understand that it's also a very effective way to spread code, whether is clean or dirty code.
+Furthermore, since this is a very common way to add code to a project, you might understand that it's also a very effective way to spread both clean and dirty code.
 
 > Code is clean if it can be understood easily – by everyone on the team. With understandability comes readability, changeability, extensibility and maintainability. All the things needed to keep a project going over a long time without accumulating up a large amount of technical debt. - Robert C Martin
 
@@ -28,6 +34,8 @@ There are many principles and guidelines out there to help you write clean code,
 
 ## Assignments
 
-This workshop contains a tic tac toe game. The main code for the game lives in `src/main.ts`. It's all in one file and I've done some work on making it difficult to read. Using the guidelines listed above, You should try to clean the code into something that is easier to understand.
+This workshop contains a tic tac toe game. The main code for the game lives in `src/main.ts`. It's all in one file and I've done some work on making it difficult to understand. Using the guidelines listed above, You should try to clean the code into something that is easier to understand.
+
+## Extra
 
 If this is too easy or you have a lot of time after you've done, I suggest you try to to clean some other code in one of your projects.
