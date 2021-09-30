@@ -9,9 +9,9 @@ export type PriceList = number[];
 export const convertSwedishPriceToForeign = (
   price: number,
   targetCurrency: TargetCurrency
-) => swedishToForeignCurrencyMap[targetCurrency](price);
+) => swedishToForeignCurrencyCalculator[targetCurrency](price);
 
-const swedishToForeignCurrencyMap: Record<
+const swedishToForeignCurrencyCalculator: Record<
   TargetCurrency,
   (x: number) => number
 > = {
