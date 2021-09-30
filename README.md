@@ -12,7 +12,9 @@ Today we're going to learn how to write clean(er) code.
 
 ## About
 
-When we write a program or an application, it's common to think about the performance of that code and how 'well' it communicates with the computer that runs it. However, when we work in teams with other coders in a project, it's important that the people in the team also communicate to each other in a performant and effective way through their code.
+Code should be as easy to understand as possible! I would say nine times out of ten it's more important than the code being fast or efficient.
+
+When we write a program or an application, it's common to think about the performance of that code and how 'well' it communicates with the computer that runs it. However, when we work in teams with other coders in a project, it's important that the people in the team also communicate to each other in an effective way through their code that is their language.
 
 One of the most common ways a new team member contributes to a code base is to go look somewhere where there is code that looks like it does what they would like to do. You find something, and then you understand that what you want to do is almost exactly like this, only with a different name.
 
